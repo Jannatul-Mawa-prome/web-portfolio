@@ -26,7 +26,7 @@ h1{
     width:40%;
     float: left;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 4%;
     overflow: hidden;
     margin-top: 60px;
 }
@@ -40,4 +40,51 @@ a{
     background-image: linear-gradient(orange,rgb(214, 107, 6));
     border-radius: 5px;
     color:white;
+}
+.experiance-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    overflow: hidden;
+}
+.experiance-area h4{
+ color:orange;
+ font-size: 30px;
+ text-align: center;
+}
+.box{
+    border:0px solid white;
+    box-shadow: 8px 8px 30px gray;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.box h2{
+    font-weight: 700;
+    width:90%;
+    margin:20px auto;
+    
+}
+.box h5{
+    margin-bottom: 0;
+    width:90%;
+    margin: auto;
+}
+.box p{
+    font-size: 16px;
+    width:90%;
+    margin: auto;
+}
+#shadow{
+    border-left:7px solid ;
+    border-image:linear-gradient(180deg,lightsalmon ,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left:7px solid ;
+    border-image:linear-gradient(180deg,blue ,cyan);
+    border-image-slice: 1;
+}
+.footer h5{
+    color: darkgrey;
+    text-align: center;
 }

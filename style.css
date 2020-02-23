@@ -40,6 +40,7 @@ a{
     background-image: linear-gradient(orange,rgb(214, 107, 6));
     border-radius: 5px;
     color:white;
+    display: inline-block;
 }
 .experiance-area{
     background-image: url("images/exp-bg.png");
@@ -73,6 +74,7 @@ a{
     font-size: 16px;
     width:90%;
     margin: auto;
+    color:rgb(77, 75, 75);
 }
 #shadow{
     border-left:7px solid ;
@@ -85,6 +87,6 @@ a{
     border-image-slice: 1;
 }
 .footer h5{
-    color: darkgrey;
+    color: rgb(77, 75, 75);
     text-align: center;
 }
